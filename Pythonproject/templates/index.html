@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<title>Home Page</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body class="w3-content" style="max-width:1600px">
+
+<!-- First Grid: home & About -->
+<div class="w3-row">
+  <div class="w3-half w3-black w3-container w3-center" style="height:800px">
+    <div class="w3-padding-64">
+      <h1><bold>Welcome</bold></h1>
+    </div>
+    <div class="w3-padding-32">
+      <a href="#" class="w3-button w3-black w3-block w3-hover-teal w3-padding-16"><h2>Home</h2></a>
+      <a href="#" class="w3-button w3-black w3-block w3-hover-teal w3-padding-16"><h2>Sentiment Analysis</h2></a>
+      <a href="#work" class="w3-button w3-black w3-block w3-hover-teal w3-padding-16"><h2>Uses</h2></a>
+      <a href="#work" class="w3-button w3-black w3-block w3-hover-teal w3-padding-16"><h2>Find Sentiment</h2></a>
+    </div>
+  </div>
+  <div class="w3-half w3-blue-grey w3-container" style="height:800px">
+    <div class="w3-padding-64 w3-center">
+      <h1>Sentiment Analysis</h1>
+      <img src="http://barnraisersllc.com/wp-content/uploads/2017/01/Sentiment-Analysis.jpg" class="w3-margin" alt="Person" style="width:60%">
+      <div class="w3-left-align w3-padding-large" style="text-align:justify">
+        <p><h4>Sentiment Analysis is the most common text classification tool that analyses an incoming message and tells whether the underlying sentiment is positive, negative our neutral.</h4></p>
+        <p><h4>Sentiment analysis is extremely useful in social media monitoring as it allows us to gain an overview of the wider public opinion behind certain topics.</h4></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Second Grid: use and sentiment -->
+<div class="w3-row">
+  <div class="w3-half w3-light-grey w3-center" style="min-height:800px" id="work">
+    <div class="w3-padding-64">
+      <h2>Uses</h2>
+    </div>
+    <div class="w3-row-padding">
+    <div class="w3-half">
+        <img src="https://cdn-images-1.medium.com/max/563/0*ga5rNPmVYBsCm-lz." style="width:100%">
+        </div>
+    <div class="w3-half">
+        <img src="https://www.kotaksecurities.com/resources/images/stock-market-analysis-and-more/funimg1.jpg" style="width:100%">
+    </div></div>
+  </div>
+  <div class="w3-half w3-teal w3-container" style="height:800px">
+    <div class="w3-padding-64 w3-padding-large">
+      <h1>Sentiment Analysis</h1>
+      <p class="w3-opacity">GET THE SENTIMENT</p>
+      <form class="w3-container w3-card w3-padding-32 w3-white" action="/actionPage#work" method="post"  style="height:400px">
+        <div class="w3-section">
+          <label>Enter Sentence</label>
+          <input class="w3-input" style="width:100%;" type="text" required name="sentence">
+        </div><br>
+        <h3 id="res"></h3>
+        <center><input type="submit" class="w3-button w3-teal w3-middle"/></center>
+      </form>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
